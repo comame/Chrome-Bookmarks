@@ -1,0 +1,26 @@
+html {
+    width: 30rem;
+}
+
+ul {
+    padding-left: 1rem;
+    list-style: none;
+}
+
+li {
+    white-space: nowrap;
+}
+li.page-li {
+    padding-left: 1rem;
+}
+
+ul.collapsed>* {
+    display: none;
+}
+
+li.page-li::before {
+    content: '▪ '
+}
+li.folder-li>ul::before {
+    content: '> '
+}

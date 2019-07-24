@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Bookmarks",
+    "version": "0.1.0",
+
+    "description": "ブックマークを表示するだけ",
+
+    "browser_action": {
+        "default_title": "ブックマーク",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ]
+}
